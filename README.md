@@ -66,6 +66,7 @@ http://localhost:8080.zero.mp3
 
 ```bash
 rtl_fm -f 145800000 -M fm -s 48k -r 48k -E deemp -g 20 - | nc localhost 7355
+```
 
 ## Status
 

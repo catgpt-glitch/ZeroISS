@@ -1,6 +1,6 @@
 # ZeroISS
 
-A tiny automatic ISS receiver for Raspberry Pi Zero🚀
+A tiny automatic ISS receiver for Raspberry Pi Zero + RTL-SDR.🚀
 
 Turn your Raspberry Pi Zero + RTL-SDR into an automatic ISS receiver.
 
@@ -34,7 +34,7 @@ ZeroISS
 ↓  
 HTTP stream  
 ↓  
-Phone / PC
+Phone📱 / PC
 
 ## Components
 

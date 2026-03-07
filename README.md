@@ -14,10 +14,6 @@ played with FM radio and ADS-B,
 
 and want to try satellite reception without complicated SDR software.
 
-Fine tuning of gain/PPM should be done with a full SDR application.
-
-This tool is designed for simple automated tracking and logging.
-
 ## Features
 
 - Automatic ISS Doppler tracking
@@ -25,6 +21,8 @@ This tool is designed for simple automated tracking and logging.
 - Lightweight (works on Raspberry Pi Zero)
 - HTTP audio streaming
 - Smartphone friendly
+- Fine tuning of gain/PPM should be done with a full SDR application.
+- This tool is designed for simple automated tracking and logging.
 
 ## Architecture
 
@@ -84,7 +82,4 @@ Currently supports:
 - NOAA satellite support
 - IBP beacon monitoring
 - Recording support
-
-##License
-
-MIT
+  

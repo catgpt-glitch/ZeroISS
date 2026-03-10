@@ -207,11 +207,11 @@ def calc_pass_placeholder():
 def menu():
     print("""
 ===== ZeroISS =====
-1) ISS pass 計算
-2) cron スケジュール設定（上書き）
-3) ライブモニタ
-4) 自動録音テスト
-Q) 終了
+1) ISS pass Calculation🚀
+2) cron Schedule (Overwrite)
+3) Live Monitor
+4) Automatic Recording Test
+Q) Quit
 """)
 
 
@@ -261,3 +261,4 @@ def main():
 if __name__ == "__main__":
     main()
   
+

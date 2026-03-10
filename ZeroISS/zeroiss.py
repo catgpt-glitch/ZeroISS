@@ -129,13 +129,7 @@ def record_pass(gain, ppm, rec_dir):
             if next_freq != current_freq:
                 stop_rtl()
 
-                cmd = (
-                    f"rtl_fm -f {next_freq} -M fm -s 48k -r 48k -E deemp "
-                    f"-g {gain} -p {ppm} - | "
-                    f"ffmpeg -loglevel error -y "
-                    f"-f s16le -ar 48000 -ac 1 -i - "
-                    f"'{out_file}'"
-                )
+                subprocess.run(["/home/masaaki/ZeroISS/tune.sh", str(freq)])
 
                 rtl_process = subprocess.Popen(
                     cmd,
@@ -261,4 +255,5 @@ def main():
 if __name__ == "__main__":
     main()
   
+
 
